@@ -1,6 +1,6 @@
 import React from 'react'
 import './Register.css'
-import profile from "../../../Componets/Images/profile.jpg";
+import profile from "../../../Images/profile.jpg";
 import { Link } from 'react-router-dom';
 
 export default function Register() {
@@ -36,6 +36,9 @@ export default function Register() {
                             <p className="link">
                                 Already have an account? <br /> Please <Link to="/login">Login</Link>
                             </p>
+                            <div className="google-signup">
+                                <button className="google-signup-btn">SignUp With Google</button>
+                            </div>
                         </div>
                     </div>
                 </div>

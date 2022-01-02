@@ -1,6 +1,6 @@
 import React from 'react'
 import './Login.css'
-import profile from "../../../Componets/Images/profile.jpg";
+import profile from "../../../Images/profile.jpg";
 import { Link } from 'react-router-dom';
 
 export default function Login() {
@@ -31,6 +31,9 @@ export default function Login() {
                                 New to MERN Zone? <br />
                                 <Link to="/register">Create New Account</Link>
                             </p>
+                            <div className="google-signup">
+                                <button className="google-signup-btn">Login With Google</button>
+                            </div>
                         </div>
                     </div>
                 </div>

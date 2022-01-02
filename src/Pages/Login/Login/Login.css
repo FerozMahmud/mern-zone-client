@@ -9,7 +9,7 @@
   .login-main {
     display: flex;
     justify-content: center;
-    height: 520px;
+    height: 570px;
     width: 350px;
     box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
     padding-top: 20px;
@@ -55,7 +55,7 @@
 
   .name{
       padding-left: 70px;
-      font-size: 20px;
+      font-size: 15px;
   }
   .second-input{
       padding-top: 20px;
@@ -67,7 +67,7 @@
       border-radius: 60px;
       background-color: #b103fc;
       color: white;
-      font-size: 25px;
+      font-size: 20px;
       border: none;
   }
   .login-button{
